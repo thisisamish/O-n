@@ -1,5 +1,9 @@
-import Image from 'next/image';
+import ProblemsTable from './components/ProblemsTable';
 
 export default function Home() {
-	return <main>Hello</main>;
+	return (
+		<main>
+			<ProblemsTable />
+		</main>
+	);
 }
